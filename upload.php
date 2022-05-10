@@ -11,6 +11,13 @@
   // Get image ID
   $id = $dbh->lastInsertId();
 
+  // Create folders if they don't exist
+
+  if (!is_dir('images')) mkdir('images');
+  if (!is_dir('images/originals')) mkdir('images/originals');
+  if (!is_dir('images/thumbs_small')) mkdir('images/thumbs_small');
+  if (!is_dir('images/thumbs_medium')) mkdir('images/thumbs_medium');
+
   // Generate filenames for original, small and medium files
   $originalFileName = "images/originals/$id.jpg";
   $smallFileName = "images/thumbs_small/$id.jpg";
