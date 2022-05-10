@@ -1,0 +1,50 @@
+body {
+  width: 800px;
+  margin: 0 auto;
+  background-color: #CFD8DC;
+}
+
+body > header {
+  background-color: #455A64;
+  padding: 2em;
+}
+
+body > header h1 a{
+  color: #FFF;
+  text-decoration: none;
+}
+
+body > nav {
+  background-color: #607D8B;
+  color: #FFF;
+  padding: 1em;
+  text-align: right;
+}
+
+#images article.image {
+  width: 200px;
+  float: left;
+  border: 0; margin: 0; padding: 0;
+}
+
+article.image header{
+  background-color: #E91E63;
+  color: #FFF;
+  text-align: center;
+  padding: 0;
+}
+
+article.image header h2{
+  padding: 0.3em 0;
+  margin: 0;
+}
+
+article.single{
+  background-color: #78909C;
+  text-align: center;
+}
+
+article.single img{
+  margin: 0 auto;
+}
+
