@@ -7,3 +7,9 @@ This example needs `php-gd` to be installed. This should do the trick:
 ```bash
 sudo apt-get install php-gd
 ```
+
+Start with:
+
+```bash
+php -S localhost:9000
+```
